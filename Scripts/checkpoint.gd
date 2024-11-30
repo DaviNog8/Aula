@@ -1,6 +1,6 @@
 extends Area2D
 
-
+var vida = 2
 
 func _ready() -> void:
 	var animatedSprite = get_child(0) as AnimatedSprite2D
